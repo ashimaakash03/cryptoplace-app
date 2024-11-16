@@ -39,12 +39,23 @@
   outline: 0;
   border-radius: 10px;
 }
-.hero button{
-    border: none;
-    background: blueviolet;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 10px;
-    cursor: pointer;
-
+.hero button {
+  border: none;
+  background: blueviolet;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.crypto-table {
+  max-width: 1000px;
+  margin: auto;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+.table-layout {
+  display: grid;
+  grid-template-columns: 0.5fr 2fr 1fr 1fr 1.5fr;
+  padding: 15px 20px;
+  align-items: center;
 }
